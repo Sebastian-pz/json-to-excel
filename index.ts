@@ -1,4 +1,4 @@
-import { WorkBook, WorkSheet } from "xlsx";
+import xlsx, { WorkBook, WorkSheet } from "xlsx";
 import { SheetDataI } from "./utils/interfaces.ts";
 
 export class ExcelFromJSON {
@@ -7,7 +7,7 @@ export class ExcelFromJSON {
   public bookName: string = "default";
   public totalSheets: number = 0;
 
-  constructor(xlsx: any) {
+  constructor() {
     this.xlsx = xlsx;
   }
 

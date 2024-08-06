@@ -1,5 +1,4 @@
 import { describe, expect, test, beforeAll } from "@jest/globals";
-import xlsx from "xlsx";
 import fs from "fs";
 
 import { ExcelFromJSON } from "../index.ts";
@@ -8,7 +7,7 @@ import { bookName, outputDir, sheetName, users } from "./utils/index.ts";
 let file: ExcelFromJSON;
 
 beforeAll(() => {
-  file = new ExcelFromJSON(xlsx);
+  file = new ExcelFromJSON();
 });
 
 describe("Excel from JSON class", () => {
