@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Especifica la versión de ECMAScript de destino
+    "module": "NodeNext", // Sistema de módulos (puedes usar ES Modules si lo prefieres)
+    "outDir": "./dist", // Carpeta de salida para el código JavaScript compilado
+    "strict": true, // Habilita comprobaciones estrictas de tipos
+    "esModuleInterop": true, // Interoperabilidad mejorada con módulos ES
+    "forceConsistentCasingInFileNames": true, // Evita problemas con nombres de archivo sensibles a mayúsculas/minúsculas
+    "moduleResolution": "NodeNext",
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  }
+}
